@@ -1,0 +1,70 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: fantasy;
+}
+table {
+  /* background-color: aqua; */
+  height: 100%;
+  width: 100%;
+}
+
+.Nav {
+  /* background-color: blue; */
+  height: 8%;
+  width: 100%;
+  text-align: center; /* Center the content horizontally */
+  background-color: burlywood;
+}
+
+.logo {
+  align-content: flex-start;
+}
+.Nav td {
+  text-align: center;
+  vertical-align: middle; /* Center the content vertically */
+}
+
+.Nav td span {
+  /* background-color: brown; */
+
+  padding-inline: 30px;
+  display: inline-block; /* Make the span a block-level element for centering */
+  font-weight: bold;
+}
+
+.Body {
+  align-items: center;
+}
+
+.Body td {
+  padding-inline: 40px;
+  align-content: space-around;
+}
+.Body ol {
+  padding: 10px;
+}
+.buttons {
+  align-content: space-between;
+}
+.buttons button {
+  padding: 15px;
+  margin-right: 20px;
+  background-color: chocolate;
+  border-radius: 20px;
+  width: 150px;
+  color: aliceblue;
+}
+
+.heading {
+  font-size: xx-large;
+  font-weight: 400;
+  width: 70%;
+}
+
+.Foot {
+  text-align: center;
+  background-color: burlywood;
+}
